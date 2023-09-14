@@ -1,0 +1,24 @@
+{
+  "name": "hapi-template",
+  "version": "1.0.0",
+  "description": "一个基于hapi框架的模板项目，方便直接使用，封装集成API接口模型。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "爱呵呵",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "hapi-cors": "^1.0.3",
+    "hapi-pino": "^12.1.0",
+    "joi": "^17.10.1",
+    "mongoose": "^7.5.1",
+    "nodemon": "^3.0.1",
+    "pino-pretty": "^10.2.0"
+  }
+}
